@@ -8,7 +8,7 @@
 import Foundation
 
 enum ViewType: String {
-    case oneTextLine = "ONE_TEXT_LINE"
-    case twoTextLine = "TWO_TEXT_LINE"
-    case oneImage = "ONE_IMAGE"
+    case textButton = "text_button"
+    case oneTextLine = "one_text_line"
+    case twoTextLine = "two_text_line"
 }

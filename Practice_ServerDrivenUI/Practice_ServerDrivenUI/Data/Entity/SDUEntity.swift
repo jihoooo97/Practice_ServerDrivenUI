@@ -9,4 +9,8 @@ import Foundation
 
 struct SDUEntity: Decodable {
     let viewItems: [ViewItem]
+    
+    enum CodingKeys: String, CodingKey {
+        case viewItems = "view_items"
+    }
 }
