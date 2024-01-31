@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		139B79762B6A25AE0053B9BA /* SDUEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139B79752B6A25AE0053B9BA /* SDUEntity.swift */; };
+		139B797E2B6A90A60053B9BA /* TextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139B797D2B6A90A60053B9BA /* TextButton.swift */; };
+		139B79802B6A98620053B9BA /* TextButtonViewObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139B797F2B6A98620053B9BA /* TextButtonViewObject.swift */; };
+		139B79822B6AA0530053B9BA /* ViewRender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139B79812B6AA0530053B9BA /* ViewRender.swift */; };
+		139B79842B6AA1090053B9BA /* ViewItemFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139B79832B6AA1090053B9BA /* ViewItemFactory.swift */; };
+		139B79862B6AA6F30053B9BA /* OneTextLineViewObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139B79852B6AA6F30053B9BA /* OneTextLineViewObject.swift */; };
+		139B79882B6AA7080053B9BA /* TwoTextLineViewObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139B79872B6AA7080053B9BA /* TwoTextLineViewObject.swift */; };
+		139B798A2B6AA78A0053B9BA /* OneTextLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139B79892B6AA78A0053B9BA /* OneTextLineView.swift */; };
+		139B798C2B6AA7960053B9BA /* TwoTextLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139B798B2B6AA7960053B9BA /* TwoTextLineView.swift */; };
 		13B4C8332B693DDA0036E0E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B4C8322B693DDA0036E0E0 /* AppDelegate.swift */; };
 		13B4C8352B693DDA0036E0E0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B4C8342B693DDA0036E0E0 /* SceneDelegate.swift */; };
 		13B4C8372B693DDA0036E0E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B4C8362B693DDA0036E0E0 /* ViewController.swift */; };
@@ -21,6 +29,14 @@
 
 /* Begin PBXFileReference section */
 		139B79752B6A25AE0053B9BA /* SDUEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDUEntity.swift; sourceTree = "<group>"; };
+		139B797D2B6A90A60053B9BA /* TextButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextButton.swift; sourceTree = "<group>"; };
+		139B797F2B6A98620053B9BA /* TextButtonViewObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextButtonViewObject.swift; sourceTree = "<group>"; };
+		139B79812B6AA0530053B9BA /* ViewRender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRender.swift; sourceTree = "<group>"; };
+		139B79832B6AA1090053B9BA /* ViewItemFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewItemFactory.swift; sourceTree = "<group>"; };
+		139B79852B6AA6F30053B9BA /* OneTextLineViewObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneTextLineViewObject.swift; sourceTree = "<group>"; };
+		139B79872B6AA7080053B9BA /* TwoTextLineViewObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoTextLineViewObject.swift; sourceTree = "<group>"; };
+		139B79892B6AA78A0053B9BA /* OneTextLineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneTextLineView.swift; sourceTree = "<group>"; };
+		139B798B2B6AA7960053B9BA /* TwoTextLineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoTextLineView.swift; sourceTree = "<group>"; };
 		13B4C82F2B693DDA0036E0E0 /* Practice_ServerDrivenUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Practice_ServerDrivenUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B4C8322B693DDA0036E0E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		13B4C8342B693DDA0036E0E0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +65,9 @@
 			isa = PBXGroup;
 			children = (
 				13B4C8502B69453B0036E0E0 /* ViewObject.swift */,
+				139B797F2B6A98620053B9BA /* TextButtonViewObject.swift */,
+				139B79852B6AA6F30053B9BA /* OneTextLineViewObject.swift */,
+				139B79872B6AA7080053B9BA /* TwoTextLineViewObject.swift */,
 			);
 			path = ViewObject;
 			sourceTree = "<group>";
@@ -124,6 +143,11 @@
 			children = (
 				13B4C83D2B693DDB0036E0E0 /* LaunchScreen.storyboard */,
 				13B4C8362B693DDA0036E0E0 /* ViewController.swift */,
+				139B797D2B6A90A60053B9BA /* TextButton.swift */,
+				139B79812B6AA0530053B9BA /* ViewRender.swift */,
+				139B79832B6AA1090053B9BA /* ViewItemFactory.swift */,
+				139B79892B6AA78A0053B9BA /* OneTextLineView.swift */,
+				139B798B2B6AA7960053B9BA /* TwoTextLineView.swift */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -205,12 +229,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				139B79862B6AA6F30053B9BA /* OneTextLineViewObject.swift in Sources */,
 				139B79762B6A25AE0053B9BA /* SDUEntity.swift in Sources */,
+				139B798C2B6AA7960053B9BA /* TwoTextLineView.swift in Sources */,
 				13B4C8372B693DDA0036E0E0 /* ViewController.swift in Sources */,
+				139B79842B6AA1090053B9BA /* ViewItemFactory.swift in Sources */,
 				13B4C8332B693DDA0036E0E0 /* AppDelegate.swift in Sources */,
+				139B798A2B6AA78A0053B9BA /* OneTextLineView.swift in Sources */,
 				13B4C8652B6956420036E0E0 /* ViewType.swift in Sources */,
+				139B79822B6AA0530053B9BA /* ViewRender.swift in Sources */,
+				139B79882B6AA7080053B9BA /* TwoTextLineViewObject.swift in Sources */,
 				13B4C8552B6948110036E0E0 /* ViewItem.swift in Sources */,
 				13B4C8352B693DDA0036E0E0 /* SceneDelegate.swift in Sources */,
+				139B79802B6A98620053B9BA /* TextButtonViewObject.swift in Sources */,
+				139B797E2B6A90A60053B9BA /* TextButton.swift in Sources */,
 				13B4C8672B695A4A0036E0E0 /* JsonData.swift in Sources */,
 				13B4C8512B69453B0036E0E0 /* ViewObject.swift in Sources */,
 			);
