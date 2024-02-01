@@ -27,8 +27,8 @@ class OneTextLineView: UIView, ViewItemable {
         fatalError("init(coder:) has not been implemented")
     }
     
-    func bind(data: ViewObject) {
-        guard let oneTextLineData = data as? OneTextLineViewObject else {
+    func bind(data: ViewData) {
+        guard let oneTextLineData = data as? OneTextLineViewData else {
             print("OneTextView parse error")
             return
         }

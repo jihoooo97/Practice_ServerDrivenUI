@@ -7,4 +7,4 @@
 
 import Foundation
 
-class ViewObject: Decodable { }
+class ViewData: Decodable { }

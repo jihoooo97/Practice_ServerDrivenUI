@@ -35,8 +35,8 @@ class TwoTextLineView: UIView, ViewItemable {
         fatalError("init(coder:) has not been implemented")
     }
     
-    func bind(data: ViewObject) {
-        guard let twoTextLineData = data as? TwoTextLineViewObject else { return }
+    func bind(data: ViewData) {
+        guard let twoTextLineData = data as? TwoTextLineViewData else { return }
         titleLabel.text = twoTextLineData.titleText
         contentLabel.text = twoTextLineData.contentText
     }

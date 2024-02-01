@@ -8,7 +8,7 @@
 import UIKit
 
 protocol ViewItemable: UIView {
-    func bind(data: ViewObject)
+    func bind(data: ViewData)
     func setLayout()
 }
 
@@ -23,8 +23,8 @@ class TextButton: UIButton, ViewItemable {
         fatalError("init(coder:) has not been implemented")
     }
     
-    func bind(data: ViewObject) {
-        guard let textButtonData = data as? TextButtonViewObject else {
+    func bind(data: ViewData) {
+        guard let textButtonData = data as? TextButtonViewData else {
             print("text button parse error")
             return
         }
