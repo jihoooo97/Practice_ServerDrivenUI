@@ -11,4 +11,5 @@ enum ViewType: String {
     case textButton = "text_button"
     case oneTextLine = "one_text_line"
     case twoTextLine = "two_text_line"
+    case oneImage = "one_image"
 }

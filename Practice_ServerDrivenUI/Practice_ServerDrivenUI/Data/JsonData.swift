@@ -42,6 +42,37 @@ let jsonData = """
                     "title_text" : "안녕히가세요"
                 }
             },
+            {
+                "view_type" : "two_text_line",
+                "view_data" : {
+                    "title_text" : "아무말말말",
+                    "content_text" : "ㅋㅋㅋㅋㅋㅋ"
+                }
+            },
+            {
+                "view_type" : "one_text_line",
+                "view_data" : {
+                    "title_text" : "버튼 위에 있는 텍스트"
+                }
+            },
+            {
+                "view_type" : "text_button",
+                "view_data" : {
+                    "title_text" : "네번째 버튼"
+                }
+            },
+            {
+                "view_type" : "one_image",
+                "view_data" : {
+                    "image_string" : "https://m.칠갑마루.com/web/product/big/202111/5856292d849cabb2b3fe91e0e6b40c23.jpg"
+                }
+            },
+            {
+                "view_type" : "text_button",
+                "view_data" : {
+                    "title_text" : "다섯번째 버튼"
+                }
+            },
         ]
     }
 """

@@ -10,11 +10,11 @@ import UIKit
 class ViewItem: Decodable {
     
     let viewType: String
-    let viewObject: ViewData?
+    let viewData: ViewData?
     
     enum CodingKeys: String, CodingKey {
         case viewType = "view_type"
-        case viewObject = "view_data"
+        case viewData = "view_data"
     }
     
     required init(from decoder: Decoder) throws {
@@ -24,13 +24,15 @@ class ViewItem: Decodable {
         
         switch viewType {
         case ViewType.textButton.rawValue:
-            self.viewObject = try container.decode(TextButtonViewData.self, forKey: .viewObject)
+            self.viewData = try container.decode(TextButtonViewData.self, forKey: .viewData)
         case ViewType.oneTextLine.rawValue:
-            self.viewObject = try container.decode(OneTextLineViewData.self, forKey: .viewObject)
+            self.viewData = try container.decode(OneTextLineViewData.self, forKey: .viewData)
         case ViewType.twoTextLine.rawValue:
-            self.viewObject = try container.decode(TwoTextLineViewData.self, forKey: .viewObject)
+            self.viewData = try container.decode(TwoTextLineViewData.self, forKey: .viewData)
+        case ViewType.oneImage.rawValue:
+            self.viewData = try container.decode(OneImageViewData.self, forKey: .viewData)
         default:
-            self.viewObject = nil
+            self.viewData = nil
         }
     }
     

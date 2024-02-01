@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		134FB8972B6BDB97008E0E52 /* OneImageViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134FB8962B6BDB97008E0E52 /* OneImageViewData.swift */; };
+		134FB8992B6BDC04008E0E52 /* OneImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134FB8982B6BDC04008E0E52 /* OneImageView.swift */; };
 		139B79762B6A25AE0053B9BA /* SDUEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139B79752B6A25AE0053B9BA /* SDUEntity.swift */; };
 		139B797E2B6A90A60053B9BA /* TextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139B797D2B6A90A60053B9BA /* TextButton.swift */; };
 		139B79802B6A98620053B9BA /* TextButtonViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139B797F2B6A98620053B9BA /* TextButtonViewData.swift */; };
@@ -28,6 +30,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		134FB8962B6BDB97008E0E52 /* OneImageViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneImageViewData.swift; sourceTree = "<group>"; };
+		134FB8982B6BDC04008E0E52 /* OneImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneImageView.swift; sourceTree = "<group>"; };
 		139B79752B6A25AE0053B9BA /* SDUEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDUEntity.swift; sourceTree = "<group>"; };
 		139B797D2B6A90A60053B9BA /* TextButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextButton.swift; sourceTree = "<group>"; };
 		139B797F2B6A98620053B9BA /* TextButtonViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextButtonViewData.swift; sourceTree = "<group>"; };
@@ -61,6 +65,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		134FB8872B6B3390008E0E52 /* ViewObject */ = {
+			isa = PBXGroup;
+			children = (
+				134FB8882B6B33AA008E0E52 /* Factory */,
+				139B797D2B6A90A60053B9BA /* TextButton.swift */,
+				139B79892B6AA78A0053B9BA /* OneTextLineView.swift */,
+				139B798B2B6AA7960053B9BA /* TwoTextLineView.swift */,
+				134FB8982B6BDC04008E0E52 /* OneImageView.swift */,
+			);
+			path = ViewObject;
+			sourceTree = "<group>";
+		};
+		134FB8882B6B33AA008E0E52 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				139B79832B6AA1090053B9BA /* ViewItemFactory.swift */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		134FB8892B6B33C3008E0E52 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				13B4C8362B693DDA0036E0E0 /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		139B79792B6A2CCA0053B9BA /* ViewData */ = {
 			isa = PBXGroup;
 			children = (
@@ -68,6 +100,7 @@
 				139B797F2B6A98620053B9BA /* TextButtonViewData.swift */,
 				139B79852B6AA6F30053B9BA /* OneTextLineViewData.swift */,
 				139B79872B6AA7080053B9BA /* TwoTextLineViewData.swift */,
+				134FB8962B6BDB97008E0E52 /* OneImageViewData.swift */,
 			);
 			path = ViewData;
 			sourceTree = "<group>";
@@ -142,12 +175,9 @@
 			isa = PBXGroup;
 			children = (
 				13B4C83D2B693DDB0036E0E0 /* LaunchScreen.storyboard */,
-				13B4C8362B693DDA0036E0E0 /* ViewController.swift */,
-				139B797D2B6A90A60053B9BA /* TextButton.swift */,
+				134FB8872B6B3390008E0E52 /* ViewObject */,
+				134FB8892B6B33C3008E0E52 /* ViewController */,
 				139B79812B6AA0530053B9BA /* ViewRender.swift */,
-				139B79832B6AA1090053B9BA /* ViewItemFactory.swift */,
-				139B79892B6AA78A0053B9BA /* OneTextLineView.swift */,
-				139B798B2B6AA7960053B9BA /* TwoTextLineView.swift */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -230,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				139B79862B6AA6F30053B9BA /* OneTextLineViewData.swift in Sources */,
+				134FB8972B6BDB97008E0E52 /* OneImageViewData.swift in Sources */,
 				139B79762B6A25AE0053B9BA /* SDUEntity.swift in Sources */,
 				139B798C2B6AA7960053B9BA /* TwoTextLineView.swift in Sources */,
 				13B4C8372B693DDA0036E0E0 /* ViewController.swift in Sources */,
@@ -241,6 +272,7 @@
 				139B79882B6AA7080053B9BA /* TwoTextLineViewData.swift in Sources */,
 				13B4C8552B6948110036E0E0 /* ViewItem.swift in Sources */,
 				13B4C8352B693DDA0036E0E0 /* SceneDelegate.swift in Sources */,
+				134FB8992B6BDC04008E0E52 /* OneImageView.swift in Sources */,
 				139B79802B6A98620053B9BA /* TextButtonViewData.swift in Sources */,
 				139B797E2B6A90A60053B9BA /* TextButton.swift in Sources */,
 				13B4C8672B695A4A0036E0E0 /* JsonData.swift in Sources */,
